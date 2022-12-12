@@ -53,6 +53,7 @@ export SOLUTION_NAME_PLACEHOLDER=$2
 export SOLUTION_VERSION_PLACEHOLDER=$3
 export overrideWarningsEnabled=false
 
+echo $cdk_source_dir
 cd $cdk_source_dir
 npm run clean
 npm install
